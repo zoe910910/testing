@@ -10,8 +10,8 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 # --- 1. LINE 凭证设定 ---
-YOUR_CHANNEL_ACCESS_TOKEN = "jVPQmBqX+1AgqwC6jPlfFaKwZltWSPNlHrdwo8KXw2krfWFuq8KLaOeaWQfxGtrgQ/WI5KazdDSKhQQTBV4cBeA42WGjGkEMFf3tylBOpNinuzIBfRjgWUnIIWcWeERVwkWFfQ/cw5RwgvFn+VW+0AdB04t89/1O/w1cDnyilFU="
-YOUR_CHANNEL_SECRET = "72c1dd7da164b7d96ae69d2cc0965f66"
+YOUR_CHANNEL_ACCESS_TOKEN = "LPkLkuP8R6sDOmOPWVE52NIITG+pn/5bDEQMpwyX60MPFWp19diGCGwMMR4/tJBtaKYMa2g95uFUDG454FuW/XDtLCxzs5vxLYuuoUmt2Xs06kT605Pw4R4hACXeG91zGffdCUvHn1bp7t4hwdXICQdB04t89/1O/w1cDnyilFU="
+YOUR_CHANNEL_SECRET = "974d4295ac24b874c0c09e6d11761ec2"
 # ---------------------------------
 
 app = Flask(__name__)
@@ -74,3 +74,4 @@ def generate_news_summary(brand_name):
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=port)
+
